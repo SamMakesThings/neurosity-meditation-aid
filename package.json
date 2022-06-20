@@ -1,0 +1,24 @@
+{
+  "name": "osc-forwarding",
+  "version": "1.0.0",
+  "description": "passing eeg data as osc to an endpoint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "neurosity",
+    "notion",
+    "crown",
+    "eeg"
+  ],
+  "author": "Sam Stowers",
+  "license": "MIT",
+  "dependencies": {
+    "@neurosity/notion": "^5.7.0",
+    "dotenv": "^15.0.0",
+    "node-osc": "^6.1.14",
+    "osc": "^2.4.2"
+  }
+}
